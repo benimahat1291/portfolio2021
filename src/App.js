@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+import React from "react";
+import { useSpring, animated} from 'react-spring'
 import './App.css';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import Header from "./components/header/Header"
+import AboutMe from "./components/aboutme/AboutMe"
+import Navbar from "./components/Navbar";
+
 
 function App() {
+    const fade = useSpring({
+        from: {
+            opacity: 0
+        },
+        to: {
+            opacity: 1
+        }
+    })
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+    <animated.div className="App" style={fade}>
+        <Navbar/>
+        <Switch>
+            <Route path="/" />
+        </Switch>
+        <Header/>
+        <AboutMe/>
+    </animated.div>
+    </Router>
   );
 }
 

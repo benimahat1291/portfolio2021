@@ -1,0 +1,70 @@
+
+.aboutMe {
+    min-width: 350px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem 7rem 2rem;
+    
+}
+
+.aboutMe::before{
+    background: grey;
+}
+
+.aboutMe__body {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    color: lavender;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.aboutMe__title {
+    color: lavender;
+    border-bottom: 1px solid white;
+}
+
+.aboutMe__bio > p {
+    width: 90%;
+    margin: auto;
+}
+
+
+.du__logo {
+    width: 200px;
+    height: auto;
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .aboutMe__body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .du__logo {
+        width: 100%;
+        padding: 2rem;
+        border-radius: 50px
+    };
+    .aboutMe__bio > p {
+        width: 10vw;
+    }
+    .aboutMe {
+        padding: 5rem 2rem 0rem 2rem;
+    }
+
+}
+@media only screen and (max-width: 447px) {
+
+    .aboutMe__section {
+        margin-top: -7rem;
+        padding-top: 2rem;
+    }
+
+    .aboutMe {
+        padding: 5rem 2rem 0rem 2rem;
+    }
+}
