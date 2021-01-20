@@ -1,10 +1,10 @@
 import React from "react";
-import { useSpring, animated} from 'react-spring'
+import { useSpring, animated } from 'react-spring'
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
-import Header from "./components/header/Header"
-import AboutMe from "./components/aboutme/AboutMe"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Navbar from "./components/Navbar";
+import Home from "./components/pages/homepage/Home"
+import Footer from "./components/pages/footer/Footer";
 
 
 function App() {
@@ -18,18 +18,17 @@ function App() {
     })
 
 
-  return (
-      <Router>
-    <animated.div className="App" style={fade}>
-        <Navbar/>
-        <Switch>
-            <Route path="/" />
-        </Switch>
-        <Header/>
-        <AboutMe/>
-    </animated.div>
-    </Router>
-  );
+    return (
+        <Router>
+            <animated.div className="App" style={fade}>
+                <Navbar />
+                <Switch>
+                    <Route path="/" exact component={Home} />
+                </Switch>
+                <Footer />
+            </animated.div>
+        </Router>
+    );
 }
 
 export default App;

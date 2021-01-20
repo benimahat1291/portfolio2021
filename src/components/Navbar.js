@@ -44,22 +44,22 @@ function Navbar() {
                         </div>
                         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                             <li className="nav-item">
-                                <Link to="/" className="nav-links">
+                                <Link to="/" className="nav-links"  onClick={closeMobileMenu}>
                                     About Me
                        </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/" className="nav-links">
+                                <Link to="/skills" className="nav-links"  onClick={closeMobileMenu}>
                                     Skills
                        </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/" className="nav-links">
+                                <Link to="/projects" className="nav-links"  onClick={closeMobileMenu}>
                                     Projects
                        </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/" className="nav-links">
+                                <Link to="/contact" className="nav-links"  onClick={closeMobileMenu}>
                                     Contact
                        </Link>
                             </li>
@@ -69,7 +69,7 @@ function Navbar() {
                                         <Button buttonStyle="btn--outline">Resume</Button>
                                     </Link>
                                 ) : (
-                                        <Link to="/sign-up" className="btn-link">
+                                        <Link to="/sign-up" className="btn-link"  onClick={closeMobileMenu}>
                                             <Button buttonStyle="btn--outline" buttonSize="btn--mobile">
                                                 Resume
                                         </Button>
