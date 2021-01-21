@@ -1,9 +1,9 @@
 import React from 'react'
-import { Button } from './Button';
+import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
-import "./HeroSection.css"
+import "./SkillsSection.css"
 
-function HeroSection({
+function SkillsSection({
     lightBg,
     topLine,
     lightText,
@@ -20,6 +20,7 @@ function HeroSection({
             className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}
         >
             <div className='container'>
+                <div className='top-line' style={{width: "80%", margin: "auto"}}>{topLine}</div>
                 <div
                     className='row home__hero-row'
                     style={{
@@ -27,9 +28,8 @@ function HeroSection({
                         flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'
                     }}
                 >
-                    <div className='col'>
                         <div className='home__hero-text-wrapper'>
-                            <div className='top-line'>{topLine}</div>
+                    <div className='col'>
                             <h1 className={lightText ? 'heading' : 'heading dark'}>
                                 {headline}
                             </h1>
@@ -42,22 +42,30 @@ function HeroSection({
                             >
                                 {description}
                             </p>
-                            <Link to='/sign-up'>
-                                <Button buttonSize='btn--wide' buttonColor='blue'>
-                                    {buttonLabel}
-                                </Button>
-                            </Link>
                         </div>
                     </div>
-                    <div className='col'>
-                        <div className='home__hero-img-wrapper'>
-                            <img src={image} alt={alt} className='home__hero-img' />
+
+                    <div className='home__hero-text-wrapper'>
+                        <div className='col'>
+                            <h1 className={lightText ? 'heading' : 'heading dark'}>
+                                {headline}
+                            </h1>
+                            <p
+                                className={
+                                    lightTextDesc
+                                        ? 'home__hero-subtitle'
+                                        : 'home__hero-subtitle dark'
+                                }
+                            >
+                                {description}
+                            </p>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
     </>);
 }
 
-export default HeroSection;
+export default SkillsSection;

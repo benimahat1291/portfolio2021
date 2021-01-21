@@ -1,14 +1,17 @@
 import React from 'react'
-import HeroSection from '../../HeroSection'
+import Header from './Header'
+import AboutMe from "./AboutMe"
+import SkillsSection from './SkillsSection'
 import Project from '../../Projects'
-import {homeObjOne, homeObjTwo} from './Data'
+import {headerOjb, homeObjTwo, aboutMeObj} from './Data'
 
 function Home() {
     return (
         <>
-            <HeroSection {...homeObjOne}/>
-            <HeroSection {...homeObjTwo }/>
-            <Project/>
+            <Header {...headerOjb}/>
+            <AboutMe {...aboutMeObj}/>
+            <SkillsSection {...homeObjTwo }/>
+            {/* <Project/> */}
         </>
     )
 }
