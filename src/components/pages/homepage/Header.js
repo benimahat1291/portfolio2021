@@ -3,43 +3,35 @@ import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
 import "./Header.css"
 
-function HeroSection({
+function Header({
     lightBg,
     topLine,
     lightText,
-    lightTextDesc,
     headline,
-    description,
     buttonLabel,
     image,
     alt,
     imgStart
 }) {
     return (<>
-        <div className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}>
+        <div className={lightBg ? 'header__hero-section' : 'header__hero-section darkBg'}>
             <div className='container'>
-                <div
-                    className='row home__hero-row'
-                    style={{
-                        display: 'flex',
-                        flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'
-                    }}
-                >
-                    <div className='home__hero-text-wrapper'>
+                <div className='row header__hero-row' style={{display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' :'row'}}>
+                    <div className='header__hero-text-wrapper'>
                         <div className='top-line'>{topLine}</div>
                         <h1 className={lightText ? 'heading' : 'heading dark'}>
                             {headline}
                         </h1>
 
-                        <Link to='/sign-up'>
+                        <Link to='/'>
                             <Button buttonSize='btn--wide' buttonColor='blue'>
                                 {buttonLabel}
                             </Button>
                         </Link>
                     </div>
 
-                    <div className='home__hero-img-wrapper'>
-                        <img src={image} alt={alt} className='home__hero-img' />
+                    <div className='header__hero-img-wrapper'>
+                        <img src={image} alt={alt} className='header__hero-img' />
                     </div>
                 </div>
             </div>
@@ -47,4 +39,4 @@ function HeroSection({
     </>);
 }
 
-export default HeroSection;
+export default Header;
