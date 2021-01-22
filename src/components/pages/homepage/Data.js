@@ -49,7 +49,7 @@ export const projectsObj = {
         {
             name: "CoolCats",
             subtitle: "Conference Planner",
-            message: "A full MERN Application where Users can create and register for events and confrences. This Web Application has a login authentication and shows full CRUD functionatily.",
+            message: "Create and explore detailed conferences in a on stop conference hosting platform",
             img: "images/coolcats.png",
             githubUrl: "https://github.com/benimahat1291/ConferencePlanner",
             deployedUrl: "https://conference-planner-123432.herokuapp.com/",
@@ -57,7 +57,8 @@ export const projectsObj = {
         },
         {
             name: "BookShelf",
-            message: "BookShelf is a MVC web page application that uses node express and sequalize.This application allows uses to make an accout and search and borrow books from other users that have an accout on the page.",
+            subtitle: "Online comunity Library",
+            message: "Loan and Borrow books between application users",
             img: "images/bookshelflogo.png",
             githubUrl: "https://github.com/benimahat1291/BookShelf-Public-Library-Online-Rental-System-Javascript-Express-MySQL-Sequelize.git",
             deployedUrl: "https://intense-earth-81966.herokuapp.com/",
@@ -65,7 +66,8 @@ export const projectsObj = {
         },
         {
             name: "Meal Matchers",
-            message: "MealMatchers a website application that uses Jquerry to search an Api for recipies when the user provides an ingredient. User can then save the recipi to their database",
+            subtitle: "Food Recipi Book",
+            message: "Search though cataloge of Food Recipi books and save them to your recipi book",
             img: "images/meal_matcher.png",
             githubUrl: "https://github.com/benimahat1291/project_1-----MealMatcher.git",
             deployedUrl: "https://jessicaano92.github.io/meal_matcher_javascript_ajax/",

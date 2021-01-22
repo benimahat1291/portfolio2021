@@ -60,7 +60,7 @@
     color: #242424;
 }
 
-.btn--wide:hover {
+.btn--wide:hover, .btn:hover  {
     color: #fff;
     background-color: #f00946;
     transition: all 0.2s ease-out;

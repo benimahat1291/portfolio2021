@@ -12,25 +12,35 @@ function project(projectsObj) {
                     <h1 className='project__heading'>projects</h1>
                     <div className='project__container'>
 
-                        {projectArr.map( e => (
+                        {projectArr.map(e => (
                             <div className='project__container-card'>
                                 <div className='project__container-cardInfo'>
-                                    <h3>CoolCats</h3>
-                                    <p>Conference Planner</p>
+                                    <div className="project__cardHeader">
+                                        <div>
+                                        <h3 className="project__name">{e.name}</h3>
+                                        <p>{e.subtitle}</p>
+                                        </div>
+                                        
+                                    </div>
                                     <div className="project__img">
-                                        <img src={""} alt="project_img" />
+                                        <img src={e.img} alt="project_img" />
+
                                     </div>
                                     <ul className='project__container-features'>
-                                        <p>Create and explore detailed conferences in a on stop conference hosting platform</p>
-                                        <li>Full CRUD with MongoDB</li>
-                                        <li>User Authentication</li>
+                                        <div className="project__container-features_desc">
+                                            {/* <p>{e.message}</p> */}
+                                        </div>
+                                        <div className="project__container-features_highlights">
+                                            <li>Full CRUD with MongoDB</li>
+                                            <li>User Authentication</li>
+                                        </div>
                                     </ul>
-                                    <Button buttonSize='btn--wide' buttonColor='blue'>More Details</Button>
                                 </div>
                             </div>
                         ))}
 
                     </div>
+                    <div className="projects__viewAll"> View All Projects</div>
                 </div>
             </div>
         </div>
