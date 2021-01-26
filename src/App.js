@@ -19,7 +19,7 @@ function App() {
 
 
     return (
-        <HashRouter>
+        <HashRouter basename="/">
             <animated.div className="App" style={fade}>
                 <Switch>
                     <Route path="/" exact component={Home} />
