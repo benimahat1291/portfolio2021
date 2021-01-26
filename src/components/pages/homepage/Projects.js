@@ -2,7 +2,7 @@ import React from 'react';
 import './Projects.css';
 import { AiOutlineArrowRight, AiFillGithub, AiOutlineLinkedin } from 'react-icons/ai'
 import { IoIosGlobe } from "react-icons/io"
-import { Button } from '../../Button';
+import { Link } from 'react-router-dom';
 
 
 function project(projectsObj) {
@@ -14,9 +14,10 @@ function project(projectsObj) {
                 <div className='project__section'>
                     <div className="project__title">
                         <h1 className='project__heading-1'>projects</h1>
-                        <span>|
-                    </span>
+                        <span>|</span>
+                        <Link to="/projects" style={{textDecoration:"none"}}>
                         <h1 className="project__heading-2">View All<span><AiOutlineArrowRight /></span></h1>
+                        </Link>
 
 
                     </div>

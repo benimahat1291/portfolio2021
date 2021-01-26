@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import "./Navbar.css"
+import "./ProjectsNav.css"
 import {Link} from "react-scroll"
 import { MdFingerprint } from "react-icons/md"
 import { FaBars, FaTimes } from "react-icons/fa"
-import { Button } from './Button'
+import { Button } from '../../Button'
 import { IconContext } from 'react-icons/lib'
 
 function Navbar() {
@@ -37,7 +37,7 @@ function Navbar() {
                     <div className="navbar-container container">
                     <Link className="navbar-logo" activeClass="active" to="header" spy={true} smooth={true} offset={0} duration={500}  onClick={closeMobileMenu}>
                     <MdFingerprint className="navbar-icon" />
-                    BENI MAHAT
+                    BENI MAHAT / Projects
                     </Link>
                         
                         <div className="menu-icon" onClick={handleClick}>
@@ -66,15 +66,15 @@ function Navbar() {
                             </li>
                             <li className="nav-btn">
                                 {button ? (
-                                    <Link to="/sign-up" className="btn-link">
+                                    <a rel="noopener noreferrer" target="_blank" href="/images/Mahat_resume.pdf" className="btn-link">
                                         <Button buttonStyle="btn--outline">Resume</Button>
-                                    </Link>
+                                    </a>
                                 ) : (
-                                        <Link to="/sign-up" className="btn-link"  onClick={closeMobileMenu}>
+                                        <a rel="noopener noreferrer" target="_blank" href="/images/Mahat_resume.pdf" className="btn-link"  onClick={closeMobileMenu}>
                                             <Button buttonStyle="btn--outline" buttonSize="btn--mobile">
                                                 Resume
                                         </Button>
-                                        </Link>
+                                        </a>
                                     )}
                             </li>
                         </ul>
