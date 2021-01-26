@@ -35,20 +35,45 @@
     justify-content: center;
     align-items: center;
   }
+
+  .project__title {
+      display: flex;
+      align-items: center;
+      padding-bottom: 4rem;
+  }
+
+  .project__title > span {
+      padding: 0 0.5rem 0 0.5rem;
+      color: gray
+  }
+
+  .project__heading-2 > span {
+      color: gray;
+  }
   
-  .project__heading {
+  .project__heading-1 {
     color: #f00946;
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 2rem;
+  }
+
+  .project__heading-2 {
+    color: green;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
   }
 
   .project__cardHeader {
      text-align: center;
+     display: flex;
   }
+
   
   .project__container-cardInfo {
     display: flex;
@@ -61,16 +86,43 @@
 
   
   .project__container-cardInfo h3 {
-      color: #276afb;
+    color: #276afb;
     }
 
+    .project__links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .project__icons {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+    } 
+
+
+    .project__icon {
+        color: #276afb;
+        padding-left: 1rem;
+    }
+
+    .project__details {
+        padding-top: 0.5rem;
+        color: #276afb;
+    }
+
+    .project__icon:hover, .project__name:hover, .project__details:hover {
+        color: #f00946;
+        transform: scale(1.06);
+        transition: all 0.3s ease-out;
+    }
+    
     .project__img {
         text-align: center;
         position: relative;
         width: 100%;
-        max-width: 400px;
-        
+        max-width: 400px; 
     }
 
     .project__img .project__button {
@@ -153,20 +205,24 @@
       margin-bottom: 2rem;
   }
 
+  .projects__viewAll > span {
+      color: gray;
+  }
+
   .project__container-features_highlights {
     text-align: center;
     font-weight: bold;
   }
   
   .project__container-features {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 1rem;
   }
   
-  .icon {
-    margin: 24px 0;
-  }
+
 
   @media screen and (max-width: 1024px) {
       .projects__viewAll {

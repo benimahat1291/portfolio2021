@@ -14,7 +14,7 @@ function SkillsSection({
     imgStart
 }) {
     return (<>
-        <div className={lightBg ? 'skills__hero-section' : 'skills__hero-section darkBg'}>
+        <div id="skills" className={lightBg ? 'skills__hero-section' : 'skills__hero-section darkBg'}>
             <div className='container'>
                 <div className="skills_container">
                     <div className='top-line'>{topLine}</div>

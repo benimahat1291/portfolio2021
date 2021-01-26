@@ -13,7 +13,7 @@ import { MdFingerprint } from 'react-icons/md';
 
 function Footer() {
   return (
-    <div className='footer-container'>
+    <div id="contact" className='footer-container'>
       <section className='footer-contact'>
         <p className='footer-contact-heading'>
           Thank you for visiting <span> contact me </span> through the links below

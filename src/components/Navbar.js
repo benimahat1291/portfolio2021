@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import "./Navbar.css"
-import { Link } from "react-router-dom"
+import {Link} from "react-scroll"
 import { MdFingerprint } from "react-icons/md"
 import { FaBars, FaTimes } from "react-icons/fa"
 import { Button } from './Button'
@@ -35,31 +35,32 @@ function Navbar() {
 
                 <div className="navbar">
                     <div className="navbar-container container">
-                        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                            <MdFingerprint className="navbar-icon" />
+                    <Link className="navbar-logo" activeClass="active" to="header" spy={true} smooth={true} offset={0} duration={500}  onClick={closeMobileMenu}>
+                    <MdFingerprint className="navbar-icon" />
                     BENI MAHAT
-                </Link>
+                    </Link>
+                        
                         <div className="menu-icon" onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}
                         </div>
                         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                             <li className="nav-item">
-                                <Link to="/" className="nav-links"  onClick={closeMobileMenu}>
+                                <Link className="nav-links" activeClass="active" to="about-Me" spy={true} smooth={true} offset={-150} duration={500}  onClick={closeMobileMenu}>
                                     About Me
                        </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/skills" className="nav-links"  onClick={closeMobileMenu}>
+                                <Link className="nav-links" activeClass="active" to="skills" spy={true} smooth={true} offset={0} duration={500}  onClick={closeMobileMenu}>
                                     Skills
                        </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/projects" className="nav-links"  onClick={closeMobileMenu}>
+                                <Link className="nav-links" activeClass="active" to="projects" spy={true} smooth={true} offset={0} duration={500}  onClick={closeMobileMenu}>
                                     Projects
                        </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/contact" className="nav-links"  onClick={closeMobileMenu}>
+                                <Link className="nav-links" activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500}  onClick={closeMobileMenu}>
                                     Contact
                        </Link>
                             </li>

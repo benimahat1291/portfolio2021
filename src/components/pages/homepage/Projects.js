@@ -1,15 +1,25 @@
 import React from 'react';
-import { Button } from '../../Button';
 import './Projects.css';
+import { AiOutlineArrowRight, AiFillGithub, AiOutlineLinkedin } from 'react-icons/ai'
+import { IoIosGlobe } from "react-icons/io"
+import { Button } from '../../Button';
+
 
 function project(projectsObj) {
     const projectArr = projectsObj.projectsArr
     console.log(projectArr)
     return (
         <div className="project__bg">
-            <div className='container'>
+            <div id="projects" className='container'>
                 <div className='project__section'>
-                    <h1 className='project__heading'>projects</h1>
+                    <div className="project__title">
+                        <h1 className='project__heading-1'>projects</h1>
+                        <span>|
+                    </span>
+                        <h1 className="project__heading-2">View All<span><AiOutlineArrowRight /></span></h1>
+
+
+                    </div>
                     <div className='project__container'>
 
                         {projectArr.map(e => (
@@ -17,30 +27,38 @@ function project(projectsObj) {
                                 <div className='project__container-cardInfo'>
                                     <div className="project__cardHeader">
                                         <div>
-                                        <h3 className="project__name">{e.name}</h3>
-                                        <p>{e.subtitle}</p>
+                                            <h3 className="project__name">{e.name}</h3>
+                                            <p>{e.subtitle}</p>
                                         </div>
-                                        
+
+                                        <div className="project__links">
+                                            <div className="project__icons">
+                                            <a className="project__icon" rel="noopener noreferrer" target="_blank" href={e.githubUrl}> <h2><AiFillGithub /></h2></a>
+                                            <a className="project__icon"rel="noopener noreferrer" target="_blank" href={e.deployedUrl}> <h2><IoIosGlobe /></h2></a>
+                                            </div>
+
+                                        </div>
+
                                     </div>
                                     <div className="project__img">
                                         <img src={e.img} alt="project_img" />
 
                                     </div>
                                     <ul className='project__container-features'>
-                                        <div className="project__container-features_desc">
-                                            {/* <p>{e.message}</p> */}
-                                        </div>
                                         <div className="project__container-features_highlights">
-                                            <li>Full CRUD with MongoDB</li>
-                                            <li>User Authentication</li>
+                                            <li>{e.hightlight_one}</li>
+                                            <li>{e.hightlight_two}</li>
+                                            <li>{e.hightlight_three}</li>
                                         </div>
+                                    <div className="project__details"> More Details <span><AiOutlineArrowRight /></span></div>
                                     </ul>
                                 </div>
                             </div>
                         ))}
 
                     </div>
-                    <div className="projects__viewAll"> View All Projects</div>
+                    <div className="projects__viewAll"> View All Projects <span><AiOutlineArrowRight /></span></div>
+
                 </div>
             </div>
         </div>

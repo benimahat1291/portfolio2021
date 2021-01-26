@@ -3,7 +3,7 @@ export const headerOjb = {
     lightText: true,
     topLine: "Full Stacks Web Developer",
     headline: "BENI MAHAT",
-    buttonLabel: "Resume",
+    resumeLink: "images/Mahat_resume.pdf",
     imgStart: 'start',
     image: 'images/mypic.jpg',
     alt: 'mypic',
@@ -49,29 +49,33 @@ export const projectsObj = {
         {
             name: "CoolCats",
             subtitle: "Conference Planner",
-            message: "Create and explore detailed conferences in a on stop conference hosting platform",
+            hightlight_one: "Scalable back-end with MongoDB",
+            hightlight_two: "Auth.O user Authentication",
+            hightlight_three: "Full CRUD functionality",
             img: "images/coolcats.png",
             githubUrl: "https://github.com/benimahat1291/ConferencePlanner",
             deployedUrl: "https://conference-planner-123432.herokuapp.com/",
-            flex: "start"
+        },
+        {
+            name: "Amazon Clone",
+            subtitle: "Full e-commerce web-store",
+            hightlight_one: "FireBase user Authentication",
+            hightlight_two: "Looks and works like Amazon",
+            hightlight_three: "Realtime payments",
+            img: "images/amazon_clone.png",
+            githubUrl: "https://github.com/benimahat1291/AmazonClone.git",
+            deployedUrl: "https://clone-bc3dc.web.app/",
+            
         },
         {
             name: "BookShelf",
             subtitle: "Online comunity Library",
-            message: "Loan and Borrow books between application users",
+            hightlight_one: "JQerry DOM manipulation",
+            hightlight_two: "Interactive Carousel",
+            hightlight_three: "CRUD with sqlDb",
             img: "images/bookshelflogo.png",
             githubUrl: "https://github.com/benimahat1291/BookShelf-Public-Library-Online-Rental-System-Javascript-Express-MySQL-Sequelize.git",
-            deployedUrl: "https://intense-earth-81966.herokuapp.com/",
-            flex: "end"
+            deployedUrl: "https://intense-earth-81966.herokuapp.com/",        
         },
-        {
-            name: "Meal Matchers",
-            subtitle: "Food Recipi Book",
-            message: "Search though cataloge of Food Recipi books and save them to your recipi book",
-            img: "images/meal_matcher.png",
-            githubUrl: "https://github.com/benimahat1291/project_1-----MealMatcher.git",
-            deployedUrl: "https://jessicaano92.github.io/meal_matcher_javascript_ajax/",
-            flex: "start"
-        }
     ]
 }

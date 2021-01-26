@@ -2,19 +2,20 @@ import React from 'react'
 import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
 import "./Header.css"
+import {AiFillGithub, AiOutlineLinkedin} from "react-icons/ai"
 
 function Header({
     lightBg,
     topLine,
     lightText,
     headline,
-    buttonLabel,
+    resumeLink,
     image,
     alt,
     imgStart
 }) {
     return (<>
-        <div className={lightBg ? 'header__hero-section' : 'header__hero-section darkBg'}>
+        <div className={lightBg ? 'header__hero-section' : 'header__hero-section darkBg'} id="header">
             <div className='container'>
                 <div className='row header__hero-row' style={{display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' :'row'}}>
                     <div className='header__hero-text-wrapper'>
@@ -22,12 +23,18 @@ function Header({
                         <h1 className={lightText ? 'heading' : 'heading dark'}>
                             {headline}
                         </h1>
+                        <div className="header__links">
+                        <a rel="noopener noreferrer" target="_blank" href={resumeLink}>
+                        <Button className='btn-link' buttonColor='blue'>
+                                Resume
+                            </Button> </a>
 
-                        <Link to='/'>
-                            <Button buttonSize='btn--wide' buttonColor='blue'>
-                                {buttonLabel}
-                            </Button>
-                        </Link>
+                            <a  className="header__link"rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/mahatbeni">
+                            <h1 ><AiFillGithub/></h1> </a>
+
+                            <a className="header__link" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/beni-mahat-1218b5184/">
+                            <h1   ><AiOutlineLinkedin/></h1> </a>
+                        </div>
                     </div>
 
                     <div className='header__hero-img-wrapper'>

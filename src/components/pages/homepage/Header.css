@@ -73,6 +73,20 @@
     display: inline-block;
   }
 
+  .header__links {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+
+  .header__link {
+    color: #276afb !important;
+  }
+
+  .header__link:hover {
+    color: #f00946 !important;
+    transition: all 0.2s ease-out;
+  }
   
   @media screen and (max-width: 991px) {
     .container {
