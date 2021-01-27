@@ -4,6 +4,40 @@
     padding: 8rem 0 8rem 0;
 
   }
+
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aboutMe__text {
+    width: 55%;
+}
+    
+  .header__img-wrapper {
+    max-width: 555px
+  }
+  
+  .header__img {
+    width: 25rem;
+    height: auto;
+    max-width: 95%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 10px;
+    padding-right: 0;
+  }
+  
+.header__img-wrapper > img {
+    
+    border-radius: 50%;
+    max-width: 100%;
+    vertical-align: middle;
+    justify-content: center;
+    display: inline-block;
+  }
   
 
   .top-line {
@@ -32,6 +66,21 @@
     .container {
       padding-right: 30px;
       padding-left: 30px;
+    }
+    .aboutMe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .header__img-wrapper {
+        max-width: 555px
+        
+      }
+    
+    .aboutMe__text {
+        width: 80%;
+        padding-bottom: 3rem;
     }
   }
   

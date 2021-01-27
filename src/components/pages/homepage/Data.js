@@ -5,21 +5,23 @@ export const headerOjb = {
     headline: "BENI MAHAT",
     resumeLink: "images/Mahat_resume.pdf",
     imgStart: 'start',
-    image: 'images/mypic.jpg',
-    alt: 'mypic',
+    video: "images/video-2.mp4"
+    
 }
 
 export const aboutMeObj = {
-    lightBg: true,
-    lightTextDesc: false,
+    lightBg: false,
+    lightTextDesc: true,
     topLine: "About Me",
+    image: 'images/mypic.jpg',
+    alt: 'mypic',
     description: "Full Stack Web Developer passionate about creating an ideal user experience with React. Aspiring to master all React libraries and technologies, I stay innovative by challenging myself to implement new technologies in every project. Recently received a Certificate in Web Development from Denver University. Excellent interpersonal communicator and a proactive collaborator valued on team-based projects and resourceful individually. Deadline driven, I establish measurable goals and resiliently work to achieve them. Currently I am seeking an environment where I can professionally utilize and grow my skills as a developer.   ",
 }
 
 export const skillsObj = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: "Skills",
     headline: "Front End",
     description: "Full Stack Web Developer passionate about creating an ideal user experience with React. Aspiring to master all React libraries and technologies, I stay innovative by challenging myself to implement new technologies in every project. Recently received a Certificate in Web Development from Denver University. Excellent interpersonal communicator and a proactive collaborator valued on team-based projects and resourceful individually. Deadline driven, I establish measurable goals and resiliently work to achieve them. Currently I am seeking an environment where I can professionally utilize and grow my skills as a developer.   ",
@@ -43,6 +45,58 @@ export const skillsObj = {
     alt: 'mypic',
 }
 
+
+export const projectOne = {
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Conference Planner',
+    headline: 'COOL CATS',
+    description:
+      'Create detailed Conference style events spaning mulitple days and nemuerous sessions. Explore and interact with Conferences hosted by other users',
+    buttonLabel: 'Get Started',
+    imgStart: 'start',
+    laptopImg: 'images/laptop.png',
+    projectImg: "images/coolcats.png",
+    alt: 'Credit Card',
+    title: "true"
+  };
+  
+  export const projectTwo = {
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'E-comerce web-store',
+    headline: 'Amazon Clone',
+    description:
+      'Designed to Look and function like amazon. Sign up and add items to your basket, when you are ready to purchase checkout your items and pay using your credit card',
+    buttonLabel: 'Learn More',
+    imgStart: '',
+    laptopImg: 'images/laptop.png',
+    projectImg: "images/amazon.png",
+    alt: 'Vault',
+    title: ""
+  };
+  
+  export const projectThree = {
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Online Book Library',
+    headline: 'BookShelf',
+    description:
+      "Borrow and Loan books with other users. Add your book's ISBN number to make it avaliable to loan. Search for books others have offered to loan",
+    buttonLabel: 'Start Now',
+    imgStart: 'start',
+    laptopImg: "images/laptop.png",
+    projectImg: 'images/bookshelf.png',
+    alt: 'Vault',
+    title: ''
+  };
+
+
+
+
 export const projectsObj = {
 
     projectsArr: [
@@ -52,7 +106,7 @@ export const projectsObj = {
             hightlight_one: "Scalable back-end with MongoDB",
             hightlight_two: "Auth.O user Authentication",
             hightlight_three: "Full CRUD functionality",
-            img: "images/coolcats.png",
+            img: "images/coolcats_2.png",
             githubUrl: "https://github.com/benimahat1291/ConferencePlanner",
             deployedUrl: "https://conference-planner-123432.herokuapp.com/",
         },

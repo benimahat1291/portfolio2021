@@ -10,14 +10,12 @@ function project(projectsObj) {
     console.log(projectArr)
     return (
         <div className="project__bg">
-            <div id="projects" className='container'>
+            <div  className='container'>
                 <div className='project__section'>
                     <div className="project__title">
-                        <h1 className='project__heading-1'>projects</h1>
-                        <span>|</span>
-                        <Link to="/projects" style={{textDecoration:"none"}}>
-                        <h1 className="project__heading-2">View All<span><AiOutlineArrowRight /></span></h1>
-                        </Link>
+                        <h1 className='project__heading-1'>Mini-projects</h1>
+                        
+                       
 
 
                     </div>
@@ -51,7 +49,7 @@ function project(projectsObj) {
                                             <li>{e.hightlight_two}</li>
                                             <li>{e.hightlight_three}</li>
                                         </div>
-                                    <div className="project__details"> More Details <span><AiOutlineArrowRight /></span></div>
+                                
                                     </ul>
                                 </div>
                             </div>

@@ -36,21 +36,7 @@
     align-items: center;
   }
 
-  .project__title {
-      display: flex;
-      align-items: center;
-      padding-bottom: 4rem;
-  }
-
-  .project__title > span {
-      padding: 0 0.5rem 0 0.5rem;
-      color: gray
-  }
-
-  .project__heading-2 > span {
-      color: gray;
-  }
-
+  
   
   .project__heading-1 {
     color: #f00946;
@@ -162,10 +148,6 @@
     
   }
   
-  .project__title {
-      margin-bottom: 5px;
-      font-size: 24px;
-  }
   
   .project__container-cardInfo h4 {
     font-size: 40px;

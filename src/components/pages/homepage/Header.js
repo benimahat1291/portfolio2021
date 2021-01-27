@@ -10,17 +10,20 @@ function Header({
     lightText,
     headline,
     resumeLink,
-    image,
+    video,
     alt,
     imgStart
 }) {
     return (<>
-        <div className={lightBg ? 'header__hero-section' : 'header__hero-section darkBg'} id="header">
+            <video src={video} autoPlay loop muted />
+        <div className='header__hero-section' id="header">
             <div className='container'>
-                <div className='row header__hero-row' style={{display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' :'row'}}>
+
+
+                <div className='header__hero-row' style={{display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' :'row'}}>
                     <div className='header__hero-text-wrapper'>
-                        <div className='top-line'>{topLine}</div>
-                        <h1 className={lightText ? 'heading' : 'heading dark'}>
+                        <div className='header__top-line'>{topLine}</div>
+                        <h1 className={lightText ? 'header__heading' : 'header__heading dark'}>
                             {headline}
                         </h1>
                         <div className="header__links">
@@ -35,10 +38,6 @@ function Header({
                             <a className="header__link" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/beni-mahat-1218b5184/">
                             <h1   ><AiOutlineLinkedin/></h1> </a>
                         </div>
-                    </div>
-
-                    <div className='header__hero-img-wrapper'>
-                        <img src={image} alt={alt} className='header__hero-img' />
                     </div>
                 </div>
             </div>

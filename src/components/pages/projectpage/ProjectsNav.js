@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import "./ProjectsNav.css"
 import {Link} from "react-scroll"
+import {Link as ReactLink} from "react-router-dom"
 import { MdFingerprint } from "react-icons/md"
 import { FaBars, FaTimes } from "react-icons/fa"
 import { Button } from '../../Button'
@@ -35,10 +36,12 @@ function Navbar() {
 
                 <div className="navbar">
                     <div className="navbar-container container">
-                    <Link className="navbar-logo" activeClass="active" to="header" spy={true} smooth={true} offset={0} duration={500}  onClick={closeMobileMenu}>
+                        
+                    <ReactLink className="navbar-logo" to="/" onClick={closeMobileMenu}>
                     <MdFingerprint className="navbar-icon" />
-                    BENI MAHAT / Projects
-                    </Link>
+                    BENI MAHAT
+                    {/* <span>/ Projects</span> */}
+                    </ReactLink>
                         
                         <div className="menu-icon" onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}
@@ -46,15 +49,15 @@ function Navbar() {
                         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                             <li className="nav-item">
                                 <Link className="nav-links" activeClass="active" to="about-Me" spy={true} smooth={true} offset={-150} duration={500}  onClick={closeMobileMenu}>
-                                    About Me
+                                    Projects
                        </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-links" activeClass="active" to="skills" spy={true} smooth={true} offset={0} duration={500}  onClick={closeMobileMenu}>
-                                    Skills
+                                    Mini-Projects
                        </Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-links" activeClass="active" to="projects" spy={true} smooth={true} offset={0} duration={500}  onClick={closeMobileMenu}>
                                     Projects
                        </Link>
@@ -63,7 +66,7 @@ function Navbar() {
                                 <Link className="nav-links" activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500}  onClick={closeMobileMenu}>
                                     Contact
                        </Link>
-                            </li>
+                            </li> */}
                             <li className="nav-btn">
                                 {button ? (
                                     <a rel="noopener noreferrer" target="_blank" href="/images/Mahat_resume.pdf" className="btn-link">

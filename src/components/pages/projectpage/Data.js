@@ -1,14 +1,17 @@
+import { FaImages } from "react-icons/fa";
+
 export const homeObjOne = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Exclusive Access',
-    headline: 'Unlimited Transactions with zero fees',
+    topLine: 'Conference Planner',
+    headline: 'COOL CATS',
     description:
-      'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
+      'Create detailed Conference style events spaning mulitple days and nemuerous sessions. Explore and interact with Conferences hosted by other users',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: 'images/svg-1.svg',
+    laptopImg: 'images/laptop.png',
+    projectImg: "images/coolcats.png",
     alt: 'Credit Card'
   };
   
@@ -16,13 +19,14 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: '100% SECURE',
-    headline: 'Stay protected 24/7 anywhere anytime',
+    topLine: 'E-comerce web-store',
+    headline: 'Amazon Clone',
     description:
-      'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
+      'Designed to Look and function like amazon. Sign up and add items to your basket, when you are ready to purchase checkout your items and pay using your credit card',
     buttonLabel: 'Learn More',
     imgStart: 'start',
-    img: 'images/svg-5.svg',
+    laptopImg: 'images/laptop.png',
+    projectImg: "images/amazon.png",
     alt: 'Vault'
   };
   

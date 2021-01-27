@@ -1,31 +1,37 @@
 .header__hero-section {
-    color: #fff;
-    padding: 8rem 0;
+    height: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   
   .header__hero-row {
-    align-items: center;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
+  }
+
+  video {
+    object-fit: cover;
+    width: 100%;
+    height: 630px;
+    position: fixed;
+    z-index: -1;
   }
   
-  .row {
-    display: flex;
-    margin-right: -15px;
-    margin-bottom: -15px;
-    margin-left: -15px;
-    flex-wrap: wrap;
-    align-content: stretch;
-  }
   
   .header__hero-text-wrapper {
-    max-width: 540px;
+    max-width: 50vw;
     padding-top: 0;
     padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
-  .top-line {
+  .header__top-line {
     color: #f00946;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
@@ -33,54 +39,33 @@
     margin-bottom: 16px;
   }
   
-  .heading {
+  .header__heading {
     margin-bottom: 24px;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 1.1;
     font-weight: 600;
     color: #f7f8fa;
   }
   
   .dark {
-    color: #1c2237;
   }
   
   .darkBg {
     background-color: #1c2237;
   }
   
-  
-  .header__hero-img-wrapper {
-    max-width: 555px
-  }
-  
-  .header__hero-img {
-    width: 25rem;
-    height: auto;
-    max-width: 95%;
-    margin-top: 0;
-    margin-right: 0;
-    margin-left: 10px;
-    padding-right: 0;
-  }
-  
-.header__hero-img-wrapper > img {
-    
-    border-radius: 50%;
-    max-width: 100%;
-    vertical-align: middle;
-    justify-content: center;
-    display: inline-block;
-  }
+
 
   .header__links {
+      width: 100%;
       display: flex;
-      justify-content: space-evenly;
+      justify-content: space-between;
       align-items: center;
   }
 
   .header__link {
     color: #276afb !important;
+    font-size: 1.5rem;
   }
 
   .header__link:hover {

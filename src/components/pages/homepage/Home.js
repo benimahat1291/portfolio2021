@@ -2,9 +2,10 @@ import React from 'react'
 import Header from './Header'
 import AboutMe from "./AboutMe"
 import SkillsSection from './SkillsSection'
-import Project from './Projects'
-import {headerOjb, aboutMeObj, skillsObj, projectsObj} from './Data'
+import Projects from './Projects'
+import {headerOjb, aboutMeObj, skillsObj, projectsObj, projectOne, projectTwo, projectThree} from './Data'
 import Navbar from "./Navbar";
+import Project from "../homepage/Project"
 
 function Home() {
     return (
@@ -13,7 +14,10 @@ function Home() {
             <Header {...headerOjb}/>
             <AboutMe {...aboutMeObj}/>
             <SkillsSection {...skillsObj }/>
-            <Project {...projectsObj}/>
+            <Project {...projectOne}/>
+            <Project {...projectTwo}/>
+            <Project {...projectThree}/>
+            <Projects {...projectsObj}/>
         </>
     )
 }
