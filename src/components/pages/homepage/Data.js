@@ -1,3 +1,6 @@
+
+
+
 export const headerOjb = {
     lightBg: false,
     lightText: true,
@@ -5,7 +8,7 @@ export const headerOjb = {
     headline: "BENI MAHAT",
     resumeLink: "images/Mahat_resume.pdf",
     imgStart: 'start',
-    video: "/images/video-2.mp4"
+    video: "images/video-2.mp4"
     
 }
 
