@@ -1,5 +1,5 @@
 .skills__hero-section {
-    background-color: lavender;
+    
  
     padding: 8rem 0;
     
@@ -10,6 +10,7 @@
     justify-content: space-evenly;
   }
   
+
   
   .top-line {
     color: #f00946;
@@ -26,7 +27,7 @@
     font-size: 2rem;
     line-height: 1.1;
     font-weight: 600;
-    color: #1c2237;;
+    color: lavender;;
   }
 
   .skills__backEnd {
@@ -62,7 +63,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    color: #1c2237;
+    color: lavender;
     text-transform: uppercase;
 }
 

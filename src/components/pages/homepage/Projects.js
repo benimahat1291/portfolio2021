@@ -56,7 +56,7 @@ function project(projectsObj) {
                         ))}
 
                     </div>
-                    <div className="projects__viewAll"> View All Projects <span><AiOutlineArrowRight /></span></div>
+                    
 
                 </div>
             </div>

@@ -1,8 +1,8 @@
 .project__bg {
-    background-color: lavender;
+
 }
 .project__section {
-    padding: 8rem 0 0 0;;
+    padding: 8rem 0 8rem 0;;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -68,12 +68,12 @@
     align-items: center;
     justify-content: center;
     align-items: center;
-    color: gray;
+    color:lavender;
   }
 
   
   .project__container-cardInfo h3 {
-    color: #276afb;
+    color:  #f7f8fa;
     }
 
     .project__links {
