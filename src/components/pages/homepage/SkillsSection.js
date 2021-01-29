@@ -1,7 +1,17 @@
 import React from 'react'
-import { Button } from '../../Button';
-import { Link } from 'react-router-dom';
 import "./SkillsSection.css"
+import Html from "../../../images/html_icon.png"
+import Css from "../../../images/css_icon.png"// css: "",
+import Js from "../../../images/js_icon.png"// js: "images/",
+import Bootstrap from "../../../images/bootstrap_icon.png"// bootstrap: "images/bootstrap_icon.png",
+import Materalize from "../../../images/materalize_icon.png"// materalize: "",
+import Reactapp from "../../../images/react_icon.png"// react: "",
+import Jquerry from "../../../images/jq_icon.png"// jquerry: "",
+import Nodejs from "../../../images/node_icon.png"// node: "",
+import Express from "../../../images/express_icon.png"// express: "images/",
+import Sql from "../../../images/sql_icon.png"// sql: "images/",
+import Mongo from "../../../images/mongodb_icon.png"// mongo: "",
+import Firebase from "../../../images/firebase_icon.png"// firebase: ""
 
 function SkillsSection({
     lightBg,
@@ -22,23 +32,23 @@ function SkillsSection({
                     <div className='skills__frontEnd'>
                         <h1 className={lightText ? 'skills__heading' : 'skills__heading dark'}>Front End</h1>
                         <div className="skills__icons">
-                            <div className="skill_icon"><img src={skillsImgs.html} alt="html" /><p>HTML5</p></div>
-                            <div className="skill_icon"><img src={skillsImgs.css} alt="css" /><p>CSS</p></div>
-                            <div className="skill_icon"><img src={skillsImgs.js} alt="js" /><p>JavaScript</p></div>
-                            <div className="skill_icon"><img src={skillsImgs.react} alt="React" /><p>React</p></div>
-                            <div className="skill_icon"><img src={skillsImgs.jquerry} alt="jq" /><p>JQuerry</p></div>
-                            <div className="skill_icon"><img src={skillsImgs.bootstrap} alt="bootstrap" /><p>BootStrap</p></div>
-                            <div className="skill_icon"><img src={skillsImgs.materalize} alt="materalize" /><p>Materalize</p></div>
+                            <div className="skill_icon"><img src={Html} alt="html" /><p>HTML5</p></div>
+                            <div className="skill_icon"><img src={Css} alt="css" /><p>CSS</p></div>
+                            <div className="skill_icon"><img src={Js} alt="js" /><p>JavaScript</p></div>
+                            <div className="skill_icon"><img src={Reactapp} alt="React" /><p>React</p></div>
+                            <div className="skill_icon"><img src={Jquerry} alt="jq" /><p>JQuerry</p></div>
+                            <div className="skill_icon"><img src={Bootstrap} alt="bootstrap" /><p>BootStrap</p></div>
+                            <div className="skill_icon"><img src={Materalize} alt="materalize" /><p>Materalize</p></div>
                         </div>
                     </div>
                     <div className='skills__backEnd'>
                         <h1 className={lightText ? 'skills__heading' : 'skills__heading dark'}>Back End</h1>
                         <div className="skills__icons">
-                            <div className="skill_icon"><img src={skillsImgs.node} alt="Node" /><p>Node JS</p></div>
-                            <div className="skill_icon"><img src={skillsImgs.express} alt="Express" /><p>Express</p></div>
-                            <div className="skill_icon"><img src={skillsImgs.mongo} alt="MongoDB" /><p>MongoDB</p></div>
-                            <div className="skill_icon"><img src={skillsImgs.firebase} alt="FireBase" /><p>Firebase</p></div>
-                            <div className="skill_icon"><img src={skillsImgs.sql} alt="Sql" /><p>NoSql</p></div>
+                            <div className="skill_icon"><img src={Nodejs} alt="Node" /><p>Node JS</p></div>
+                            <div className="skill_icon"><img src={Express} alt="Express" /><p>Express</p></div>
+                            <div className="skill_icon"><img src={Mongo} alt="MongoDB" /><p>MongoDB</p></div>
+                            <div className="skill_icon"><img src={Firebase} alt="FireBase" /><p>Firebase</p></div>
+                            <div className="skill_icon"><img src={Sql} alt="Sql" /><p>NoSql</p></div>
                         </div>
                     </div>
 

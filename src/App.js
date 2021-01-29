@@ -4,7 +4,6 @@ import './App.css';
 import { BrowserRouter as Switch, Route, HashRouter } from "react-router-dom"
 import Home from "./components/pages/homepage/Home"
 import Footer from "./components/Footer";
-import Projects from "./components/pages/projectpage/Projects";
 
 
 function App() {

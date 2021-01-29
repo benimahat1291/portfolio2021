@@ -1,22 +1,18 @@
 import React from 'react'
 import { Button } from '../../Button';
-import { Link } from 'react-router-dom';
-
 import "./Header.css"
+import VideoBg from "../../../images/video-1.mp4"
 import {AiFillGithub, AiOutlineLinkedin} from "react-icons/ai"
 
 function Header({
-    lightBg,
     topLine,
     lightText,
     headline,
     resumeLink,
-    video,
-    alt,
     imgStart
 }) {
     return (<>
-            <video src={video} autoPlay loop muted />
+            <video src={VideoBg} autoPlay loop muted />
         <div className='header__hero-section' id="header">
             <div className='container'>
 

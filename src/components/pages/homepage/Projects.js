@@ -1,8 +1,7 @@
 import React from 'react';
 import './Projects.css';
-import { AiOutlineArrowRight, AiFillGithub, AiOutlineLinkedin } from 'react-icons/ai'
+import {AiFillGithub} from 'react-icons/ai'
 import { IoIosGlobe } from "react-icons/io"
-import { Link } from 'react-router-dom';
 
 
 function project(projectsObj) {

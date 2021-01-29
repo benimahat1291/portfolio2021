@@ -3,8 +3,7 @@ import './Project.css';
 import { Link } from 'react-router-dom';
 import { AiFillGithub } from 'react-icons/ai'
 import { IoIosGlobe } from "react-icons/io"
-import { Button } from '../../Button'
-
+import LaptopImg from "../../../images/laptop.png"
 
 function Project({
     lightBg,
@@ -14,7 +13,6 @@ function Project({
     headline,
     description,
     buttonLabel,
-    laptopImg,
     projectImg,
     alt,
     imgStart,
@@ -85,8 +83,8 @@ function Project({
                         </div>
 
                         <div className='home__hero-img-wrapper'>
-                            <img src={laptopImg} alt={alt} className='home__laptop-img' />
-                            <img src={projectImg} alt={alt} className='home__project-img' />
+                            <img src={LaptopImg} alt={alt} className='home__laptop-img' />
+                            <img src={process.env.PUBLIC_URL + "/" + projectImg} alt={alt} className='home__project-img' />
                         </div>
 
                     </div>

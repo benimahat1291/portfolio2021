@@ -1,12 +1,12 @@
 import React from 'react'
 import "./AboutMe.css"
+import Mypic from "../../../images/mypic.jpg"
 
 function AboutMe({
     lightBg,
     topLine,
     lightTextDesc,
     description,
-    image,
     alt
 
 }) {
@@ -19,7 +19,7 @@ function AboutMe({
                         <p className={lightTextDesc ? 'aboutMe__hero-subtitle' : 'aboutMe__hero-subtitle dark'} >{description}</p>
                     </div>
                     <div className='header__img-wrapper'>
-                        <img src={image} alt={alt} className='header__img' />
+                        <img src={Mypic} alt={alt} className='header__img' />
                     </div>
                 </div>
             </div>
