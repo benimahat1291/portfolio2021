@@ -10,7 +10,7 @@ function project(projectsObj) {
     return (
         <div className="project__bg">
             <div  className='container'>
-                <div data-aos="fade-up" data-aos-offset="300" className='project__section'>
+                <div data-aos="fade-up" data-aos-offset="100" className='project__section'>
                     <div className="project__title">
                         <h1 className='project__heading-1'>Mini-projects</h1>
                         
