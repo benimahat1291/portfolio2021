@@ -16,7 +16,12 @@
   .project__title {
     width: 80%;
     display: flex;
-    margin-bottom: 0.5rem;
+    justify-content: space-between;
+}
+
+.projectpage__title {
+    width: 80%;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -39,7 +44,8 @@
     padding-bottom: 60px;
   }
   
-  .top-line {
+  .project__top-line {
+    color: #276afb;
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -61,7 +67,7 @@
       font-size: 3rem;
   }
 
-  .project__icons {
+  .projectpage__icons {
       width: 40%;
       display: flex;
       justify-content: space-evenly;
@@ -125,6 +131,7 @@
   
   .project__info{
       width: 50%;
+      padding-top: 2rem
 
   }
 
@@ -210,4 +217,19 @@
           top: -130px;
           left: 0px;
       }
+
+      .projectpage__icon {
+
+        font-size: 3rem;
+
+    }
+
+    .projectpage__icons {
+        margin-left: 3rem;
+    }
+
+    .projectpage__title {
+        margin-bottom: 1rem;
+    }
+    
   }

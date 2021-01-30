@@ -38,17 +38,17 @@ function Project({
                     >
                         <div className='project__info'>
                             <div className='project__hero-text-wrapper'>
-                                <div className="project__title">
+                                <div className="projectpage__title">
 
                                     <div className="project__title-txt">
                                         <div>
                                             <h1 className={lightText ? 'heading' : 'heading dark'}>
                                                 {headline}
                                             </h1>
-                                            <div className='top-line'>{topLine}</div>
+                                            <div className='project__top-line'>{topLine}</div>
                                         </div>
                                     </div>
-                                    <div className="project__icons">
+                                    <div className="projectpage__icons">
                                         <a href={deployedUrl} rel="noopener noreferrer" target="_blank">
 
                                             <IoIosGlobe className="projectpage__icon" />

@@ -21,7 +21,7 @@ function project(projectsObj) {
                     <div className='project__container'>
 
                         {projectArr.map(e => (
-                            <div data-aos="flip-left" data-aos-offset="300"  className='project__container-card'>
+                            <div data-aos="flip-left"   className='project__container-card'>
                                 <div className='project__container-cardInfo'>
                                     <div className="project__img">
                                         <img src={process.env.PUBLIC_URL + "/" + e.img} alt="project_img" />

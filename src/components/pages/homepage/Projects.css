@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: start;
+
   }
 
   
@@ -16,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 7rem 0;
   }
   
   .project__container-card:nth-child(2) {
@@ -231,9 +233,6 @@
     .project_bg .container {
         width: 10%;
     }
-    .project__img {
-      display: none;
-    }
 
     .project__container {
       display: flex;
@@ -262,6 +261,7 @@
     .project__container-card:hover {
       transform: none;
     }
+
   }
 
   @media screen and (max-width: 385px) {
