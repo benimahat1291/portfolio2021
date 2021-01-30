@@ -42,7 +42,7 @@ function Project({
 
                                     <div className="project__title-txt">
                                         <div>
-                                            <h1 className={lightText ? 'heading' : 'heading dark'}>
+                                            <h1 className={lightText ? 'project__heading' : 'project__heading dark'}>
                                                 {headline}
                                             </h1>
                                             <div className='project__top-line'>{topLine}</div>
