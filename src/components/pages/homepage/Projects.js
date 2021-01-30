@@ -10,7 +10,7 @@ function project(projectsObj) {
     return (
         <div className="project__bg">
             <div  className='container'>
-                <div className='project__section'>
+                <div data-aos="fade-up" data-aos-offset="300" className='project__section'>
                     <div className="project__title">
                         <h1 className='project__heading-1'>Mini-projects</h1>
                         
@@ -21,7 +21,7 @@ function project(projectsObj) {
                     <div className='project__container'>
 
                         {projectArr.map(e => (
-                            <div className='project__container-card'>
+                            <div data-aos="flip-left" data-aos-offset="300"  className='project__container-card'>
                                 <div className='project__container-cardInfo'>
                                     <div className="project__img">
                                         <img src={process.env.PUBLIC_URL + "/" + e.img} alt="project_img" />

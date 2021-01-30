@@ -58,7 +58,7 @@ export const projectOne = {
     projectImg: "images/coolcats.png",
     githubUrl: "https://github.com/benimahat1291/ConferencePlanner.git",
     deployedUrl: "https://conference-planner-123432.herokuapp.com/",
-    title: "projects",
+    title: "true",
 };
 
 export const projectTwo = {

@@ -25,7 +25,7 @@ function Project({
             <div
                 className={lightBg ? 'project__hero-section' : 'project__hero-section darkBg'}
             >
-                <div className='container'>
+                <div data-aos="fade-up" className='container'>
                     <div id="projects" className={title === 'true' ? 'project__title' : 'project__title-none'}>
                         <h1 className='project__heading-1'>projects</h1>
                     </div>

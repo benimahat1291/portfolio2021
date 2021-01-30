@@ -13,7 +13,7 @@ function AboutMe({
     return (<>
         <div className={lightBg ? 'aboutMe__hero-section' : 'aboutMe__hero-section darkBg'} id="about-Me">
             <div className='container'>
-                <div className="aboutMe">
+                <div data-aos="fade-up" className="aboutMe">
                     <div className="aboutMe__text">
                         <div className='top-line'>{topLine}</div>
                         <p className={lightTextDesc ? 'aboutMe__hero-subtitle' : 'aboutMe__hero-subtitle dark'} >{description}</p>
