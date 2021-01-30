@@ -62,7 +62,7 @@
     line-height: 24px;
   }
   
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1012px) {
     .container {
       padding-right: 30px;
       padding-left: 30px;
@@ -85,5 +85,7 @@
   }
   
   @media screen and (max-width: 768px) {
-
+    .aboutMe__text {
+        width: 100%;
+    }
   }

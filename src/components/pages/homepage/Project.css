@@ -13,11 +13,6 @@
       flex-wrap: wrap;
   }
 
-  .project__title {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-}
 
 .projectpage__title {
     width: 80%;
@@ -211,8 +206,8 @@
       }
 
       .project__hero-text-wrapper {
-        width: 90%;
-        height: 30rem;
+        width: 100%;
+
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
