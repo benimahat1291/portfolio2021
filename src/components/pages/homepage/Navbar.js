@@ -36,8 +36,9 @@ function Navbar() {
                 <div className="navbar">
                     <div className="navbar-container container">
                     <Link className="navbar-logo" activeClass="active" to="header" spy={true} smooth={true} offset={0} duration={500}  onClick={closeMobileMenu}>
-                    <MdFingerprint className="navbar-icon" />
-                    BENI MAHAT
+                    <span>BENI</span>
+                        <MdFingerprint className='navbar-icon' />
+                        <span>MAHAT</span>
                     </Link>
                         
                         <div className="menu-icon" onClick={handleClick}>

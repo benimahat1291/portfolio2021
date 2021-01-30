@@ -23,6 +23,10 @@ function project(projectsObj) {
                         {projectArr.map(e => (
                             <div className='project__container-card'>
                                 <div className='project__container-cardInfo'>
+                                    <div className="project__img">
+                                        <img src={process.env.PUBLIC_URL + "/" + e.img} alt="project_img" />
+
+                                    </div>
                                     <div className="project__cardHeader">
                                         <div>
                                             <h3 className="project__name">{e.name}</h3>
@@ -36,10 +40,6 @@ function project(projectsObj) {
                                             </div>
 
                                         </div>
-
-                                    </div>
-                                    <div className="project__img">
-                                        <img src={e.img} alt="project_img" />
 
                                     </div>
                                     <ul className='project__container-features'>

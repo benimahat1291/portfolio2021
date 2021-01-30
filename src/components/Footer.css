@@ -1,8 +1,42 @@
 .footer-container {
     background-color: #1c2237;
-    padding: 7rem 0 4rem 0;
+    padding: 7rem 0 2rem 0;
   }
   
+
+  .email__links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 5rem;
+      
+  }
+
+  .email__icon {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 3rem;
+    margin: 0 2rem;
+    margin-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .email__address {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+
+
   .footer-contact {
     display: flex;
     flex-direction: column;
@@ -20,7 +54,6 @@
   
   .footer-contact-heading {
     font-size: 2rem;
-    margin: 2rem
 
   }
   .footer-contact-heading > span {
@@ -42,6 +75,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: 2rem 0;
 
   }
   
@@ -56,7 +90,17 @@
     font-size: 5rem;
     padding: 1rem;
   }
-  
+
+  .social-icon-link:hover, .email__links:hover span{
+    color: #f00946;
+    transform: scale(1.06);
+    transition: all 0.3s ease-out;
+  }
+
+  .social-icons {
+      margin: 2rem 0;
+  }
+
   
   @media screen and (max-width: 768px) {
     .footer-links {

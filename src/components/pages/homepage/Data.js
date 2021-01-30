@@ -5,9 +5,7 @@ export const headerOjb = {
     lightText: true,
     topLine: "Full Stacks Web Developer",
     headline: "BENI MAHAT",
-    resumeLink: "assets/images/Mahat_resume.pdf",
     imgStart: 'start',
-    video: "images/video-1.mp4"
 }
 
 export const aboutMeObj = {
@@ -54,46 +52,47 @@ export const projectOne = {
     topLine: 'Conference Planner',
     headline: 'COOL CATS',
     description:
-      'Create detailed Conference style events spaning mulitple days and nemuerous sessions. Explore and interact with Conferences hosted by other users',
-    buttonLabel: 'Get Started',
+        'Create detailed Conference style events spaning mulitple days and nemuerous sessions. Explore and interact with Conferences hosted by other users',
     imgStart: 'start',
     laptopImg: 'images/laptop.png',
     projectImg: "images/coolcats.png",
-    alt: 'Credit Card',
-    title: "true"
-  };
-  
-  export const projectTwo = {
+    githubUrl: "https://github.com/benimahat1291/ConferencePlanner.git",
+    deployedUrl: "https://conference-planner-123432.herokuapp.com/",
+    title: "projects",
+};
+
+export const projectTwo = {
     lightBg: true,
     lightText: true,
     lightTextDesc: true,
     topLine: 'E-comerce web-store',
     headline: 'Amazon Clone',
     description:
-      'Designed to Look and function like amazon. Sign up and add items to your basket, when you are ready to purchase checkout your items and pay using your credit card',
-    buttonLabel: 'Learn More',
+        'Designed to Look and function like amazon. Sign up and add items to your basket, when you are ready to purchase checkout your items and pay using your credit card',
     imgStart: '',
     laptopImg: 'images/laptop.png',
     projectImg: "images/amazon.png",
-    alt: 'Vault',
-    title: ""
-  };
-  
-  export const projectThree = {
+    title: "",
+    githubUrl: "https://github.com/benimahat1291/AmazonClone.git",
+    deployedUrl: "https://clone-bc3dc.web.app/",
+};
+
+export const projectThree = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
     topLine: 'Online Book Library',
     headline: 'BookShelf',
     description:
-      "Borrow and Loan books with other users. Add your book's ISBN number to make it avaliable to loan. Search for books others have offered to loan",
-    buttonLabel: 'Start Now',
+        "Borrow and Loan books with other users. Add your book's ISBN number to make it avaliable to loan. Search for books others have offered to loan",
     imgStart: 'start',
     laptopImg: "images/laptop.png",
     projectImg: 'images/bookshelf.png',
-    alt: 'Vault',
-    title: ''
-  };
+    githubUrl: "https://github.com/benimahat1291/BookShelf.git",
+    deployedUrl: "https://bookshelf-borrow-books.herokuapp.com/",
+    title: ""
+
+};
 
 
 
@@ -102,35 +101,26 @@ export const projectsObj = {
 
     projectsArr: [
         {
-            name: "CoolCats",
-            subtitle: "Conference Planner",
-            hightlight_one: "Scalable back-end with MongoDB",
-            hightlight_two: "Auth.O user Authentication",
-            hightlight_three: "Full CRUD functionality",
-            img: "images/coolcats_2.png",
-            githubUrl: "https://github.com/benimahat1291/ConferencePlanner",
-            deployedUrl: "https://conference-planner-123432.herokuapp.com/",
+            name: "Fitness Tracker",
+            subtitle: "Log Your Workouts",
+            img: "images/fitnesstracker.png",
+            githubUrl: "https://workout-tracker-36559.herokuapp.com/?id=5fbde1cd315a6800175f40f9",
+            deployedUrl: "https://github.com/benimahat1291/HW13---Fitness-Tracker.git",
+
         },
         {
-            name: "Amazon Clone",
-            subtitle: "Full e-commerce web-store",
-            hightlight_one: "FireBase user Authentication",
-            hightlight_two: "Looks and works like Amazon",
-            hightlight_three: "Realtime payments",
-            img: "images/amazon_clone.png",
-            githubUrl: "https://github.com/benimahat1291/AmazonClone.git",
-            deployedUrl: "https://clone-bc3dc.web.app/",
-            
+            name: "Meal Matchers",
+            subtitle: "Search and Save Recipes",
+            img: "images/meal_matcher.png",
+            githubUrl: "https://github.com/benimahat1291/MealMatcher.git",
+            deployedUrl: "https://benimahat1291.github.io/MealMatcher/",
         },
         {
-            name: "BookShelf",
-            subtitle: "Online comunity Library",
-            hightlight_one: "JQerry DOM manipulation",
-            hightlight_two: "Interactive Carousel",
-            hightlight_three: "CRUD with sqlDb",
-            img: "images/bookshelflogo.png",
-            githubUrl: "https://github.com/benimahat1291/BookShelf-Public-Library-Online-Rental-System-Javascript-Express-MySQL-Sequelize.git",
-            deployedUrl: "https://intense-earth-81966.herokuapp.com/",        
+            name: "Note Taker",
+            subtitle: "Save and Edit Notes",
+            img: "images/notetaker.png",
+            githubUrl: "https://github.com/benimahat1291/HW9---Note-Taker.git",
+            deployedUrl: "https://note-taker-32343.herokuapp.com/notes",
         },
     ]
 }

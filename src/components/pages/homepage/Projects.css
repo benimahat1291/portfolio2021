@@ -1,8 +1,6 @@
-.project__bg {
 
-}
 .project__section {
-    padding: 8rem 0 8rem 0;;
+    padding: 6rem 0 6rem 0;;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -13,7 +11,6 @@
   .project__container-card {
     /* background: linear-gradient(45deg, #1c2237 0%, #1c2237 100%); */
     width: 35%;
-    height: 30rem;
     text-decoration: none;
     border-radius: 4px;
     display: flex;
@@ -45,6 +42,7 @@
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
+    margin-bottom: 3rem;
   }
 
   .project__heading-2 {
@@ -110,6 +108,7 @@
         position: relative;
         width: 100%;
         max-width: 400px; 
+        margin-bottom: 1rem;
     }
 
     .project__img .project__button {

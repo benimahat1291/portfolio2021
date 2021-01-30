@@ -12,11 +12,12 @@ function Project({
     lightTextDesc,
     headline,
     description,
-    buttonLabel,
     projectImg,
     alt,
     imgStart,
-    title
+    githubUrl,
+    deployedUrl,
+    title,
 
 }) {
     return (
@@ -48,14 +49,14 @@ function Project({
                                         </div>
                                     </div>
                                     <div className="project__icons">
-                                        <Link to='/sign-up'>
+                                        <a href={deployedUrl} rel="noopener noreferrer" target="_blank">
 
                                             <IoIosGlobe className="projectpage__icon" />
 
-                                        </Link>
-                                        <Link  to='/sign-up'>
+                                        </a>
+                                        <a  href={githubUrl} rel="noopener noreferrer" target="_blank">
                                             <AiFillGithub className="projectpage__icon" />
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                                 <p

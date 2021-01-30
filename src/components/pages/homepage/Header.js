@@ -3,12 +3,12 @@ import { Button } from '../../Button';
 import "./Header.css"
 import VideoBg from "../../../images/video-1.mp4"
 import {AiFillGithub, AiOutlineLinkedin} from "react-icons/ai"
+import ResumeLink from "../../../images/Mahat_resume.pdf"
 
 function Header({
     topLine,
     lightText,
     headline,
-    resumeLink,
     imgStart
 }) {
     return (<>
@@ -24,12 +24,12 @@ function Header({
                             {headline}
                         </h1>
                         <div className="header__links">
-                        <a rel="noopener noreferrer" target="_blank" href={resumeLink}>
+                        <a rel="noopener noreferrer" target="_blank" href={ResumeLink}>
                         <Button className='btn-link' buttonColor='blue'>
                                 Resume
                             </Button> </a>
 
-                            <a  className="header__link"rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/mahatbeni">
+                            <a  className="header__link"rel="noopener noreferrer" target="_blank" href="https://github.com/benimahat1291">
                             <h1 ><AiFillGithub/></h1> </a>
 
                             <a className="header__link" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/beni-mahat-1218b5184/">
