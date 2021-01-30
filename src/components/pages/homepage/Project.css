@@ -207,7 +207,7 @@
 
       .project__hero-text-wrapper {
         width: 100%;
-
+        height: 30rem;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
