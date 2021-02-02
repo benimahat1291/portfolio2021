@@ -3,7 +3,7 @@ import { Button } from '../../Button';
 import "./Header.css"
 import VideoBg from "../../../images/video-1.mp4"
 import {AiFillGithub, AiOutlineLinkedin} from "react-icons/ai"
-import ResumeLink from "../../../images/Mahat_resume.pdf"
+import Resume from "../../../images/BeniMahatResume.pdf"
 
 function Header({
     topLine,
@@ -24,7 +24,7 @@ function Header({
                             {headline}
                         </h1>
                         <div className="header__links">
-                        <a rel="noopener noreferrer" target="_blank" href={ResumeLink}>
+                        <a rel="noopener noreferrer" target="_blank" href={Resume}>
                         <Button className='btn-link' buttonColor='blue'>
                                 Resume
                             </Button> </a>

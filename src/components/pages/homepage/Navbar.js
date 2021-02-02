@@ -5,6 +5,7 @@ import { MdFingerprint } from "react-icons/md"
 import { FaBars, FaTimes } from "react-icons/fa"
 import { Button } from '../../Button'
 import { IconContext } from 'react-icons/lib'
+import Resume from "../../../images/BeniMahatResume.pdf"
 
 function Navbar() {
 
@@ -67,11 +68,11 @@ function Navbar() {
                             </li>
                             <li className="nav-btn">
                                 {button ? (
-                                    <a rel="noopener noreferrer" target="_blank" href="/images/Mahat_resume.pdf" className="btn-link">
+                                    <a rel="noopener noreferrer" target="_blank" href={Resume} className="btn-link">
                                         <Button buttonStyle="btn--outline">Resume</Button>
                                     </a>
                                 ) : (
-                                        <a rel="noopener noreferrer" target="_blank" href="/images/Mahat_resume.pdf" className="btn-link"  onClick={closeMobileMenu}>
+                                        <a rel="noopener noreferrer" target="_blank" href={Resume} className="btn-link"  onClick={closeMobileMenu}>
                                             <Button buttonStyle="btn--outline" buttonSize="btn--mobile">
                                                 Resume
                                         </Button>
