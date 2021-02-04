@@ -15,7 +15,7 @@ This is my portfolio Webpage made January 2021. Plese explore my information and
 
 ## Links
 
-[See the Deployed Application](https://benimahat1291.github.io/Portfolio_v2/)
+[See the Deployed Application](https://benimahat1291.github.io/portfolio2021/)
 
 ## Screenshots
 
