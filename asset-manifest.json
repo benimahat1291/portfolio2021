@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio2021/static/css/main.de4be229.chunk.css",
+    "main.css": "/portfolio2021/static/css/main.6b94381a.chunk.css",
     "main.js": "/portfolio2021/static/js/main.1aea0836.chunk.js",
     "main.js.map": "/portfolio2021/static/js/main.1aea0836.chunk.js.map",
     "runtime-main.js": "/portfolio2021/static/js/runtime-main.6a475636.js",
@@ -10,7 +10,7 @@
     "static/js/2.04455764.chunk.js.map": "/portfolio2021/static/js/2.04455764.chunk.js.map",
     "index.html": "/portfolio2021/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/portfolio2021/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.de4be229.chunk.css.map": "/portfolio2021/static/css/main.de4be229.chunk.css.map",
+    "static/css/main.6b94381a.chunk.css.map": "/portfolio2021/static/css/main.6b94381a.chunk.css.map",
     "static/js/2.04455764.chunk.js.LICENSE.txt": "/portfolio2021/static/js/2.04455764.chunk.js.LICENSE.txt",
     "static/media/BeniMahatResume.89187a82.pdf": "/portfolio2021/static/media/BeniMahatResume.89187a82.pdf",
     "static/media/bootstrap_icon.d5210cde.png": "/portfolio2021/static/media/bootstrap_icon.d5210cde.png",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.6a475636.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.04455764.chunk.js",
-    "static/css/main.de4be229.chunk.css",
+    "static/css/main.6b94381a.chunk.css",
     "static/js/main.1aea0836.chunk.js"
   ]
 }
