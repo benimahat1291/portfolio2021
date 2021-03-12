@@ -17,11 +17,6 @@ function SkillsSection({
     lightBg,
     topLine,
     lightText,
-    lightTextDesc,
-    skillsImgs,
-    buttonLabel,
-    image,
-    imgStart
 }) {
     return (<>
         <div id="skills" className={lightBg ? 'skills__hero-section' : 'skills__hero-section darkBg'}>

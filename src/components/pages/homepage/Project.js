@@ -12,6 +12,8 @@ function Project({
     lightTextDesc,
     headline,
     description,
+    highlights,
+    technology,
     projectImg,
     alt,
     imgStart,
@@ -71,12 +73,12 @@ function Project({
 
                                 <div className="project__cs-info">
                                     <div className="home__hero-subtitle project_highlights">
-                                    <p>Full CRUD functionality, Scalable back-end with MongoDB,  Auth.O user Authentication</p>
+                                    <p>{highlights}</p>
                                     </div>
                                 </div>
 
                                     <div className="home__hero-subtitle project__tech">
-                                        <p>HTML, JSX, CSS, JSON, Express, React, Axios, MongoDB, Auth.0, and Server-side APIs</p>
+                                        <p>{technology}</p>
                                     </div>
 
 

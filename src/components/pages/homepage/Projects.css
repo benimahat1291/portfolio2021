@@ -1,269 +1,311 @@
-
 .project__section {
-    padding: 6rem 0 6rem 0;;
+  padding: 6rem 0 6rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.project__container-card {
+  /* background: linear-gradient(45deg, #1c2237 0%, #1c2237 100%); */
+  /* width: 20rem; */
+  text-decoration: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25rem;
+}
+
+.project__container-card:nth-child(2) {
+  /* background: #1c2237; */
+}
+
+.project__container-card:nth-child(2) {
+  /* margin: 0 1.5rem; */
+}
+
+.project__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 30rem;
+}
+
+
+
+.project__heading-1 {
+  color: #f00946;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+.project__heading-2 {
+  color: green;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.project__cardHeader {
+  text-align: center;
+  display: flex;
+}
+
+.project__container-cardInfo {
+  display: flex;
+  height: 25rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  color: lavender;
+}
+
+.project__container-cardInfo h3 {
+  color: #f7f8fa;
+}
+
+.project__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project__icons {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project__icon {
+  color: lavender;
+  padding-left: 1rem;
+}
+
+.project__details {
+  padding-top: 0.5rem;
+  color: #276afb;
+}
+
+.project__icon:hover,
+.project__name:hover,
+.project__details:hover {
+  color: #f00946;
+  transform: scale(1.06);
+  transition: all 0.3s ease-out;
+}
+
+.project__img {
+  text-align: center;
+  position: relative;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.project__img .project__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.project__img:hover {
+  width: 100%;
+  transform: scale(1.06);
+  transition: all 0.3s ease-out;
+}
+
+.project__img img {
+  width: 80%;
+  display: inline-block;
+  height: auto;
+  border-radius: 50%;
+  border: solid 5px gray;
+  box-shadow: 0 1px 5px #1c2237;
+}
+
+.project__container-cardInfo h4 {
+  font-size: 40px;
+}
+
+.project__container-cardInfo p {
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.project__container-features {
+  margin: 16px 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.project__container-features_desc {
+  font-size: 14px;
+  margin-bottom: none;
+  text-align: center;
+  width: 80%;
+}
+
+.projects__viewAll {
+  padding: 5rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  color: green;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.projects__viewAll > span {
+  color: gray;
+}
+
+.project__container-features_highlights {
+  text-align: center;
+  font-weight: bold;
+}
+
+.project__container-features {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+}
+
+button.rec-dot{
+    margin-left: 1rem;
+    box-shadow: 0 0 1px 3px gary;
+    
+  }
+
+  button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+    box-shadow: 0 0 1px 3px #1167b1;
+    background: white;
+  }
+
+@media screen and (max-width: 1024px) {
+  .projects__viewAll {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: start;
-
-  }
-
-  
-  .project__container-card {
-    /* background: linear-gradient(45deg, #1c2237 0%, #1c2237 100%); */
-    width: 35%;
-    text-decoration: none;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 7rem 0;
-  }
-  
-  .project__container-card:nth-child(2) {
-    /* background: #1c2237; */
-  }
-
-  
-  .project__container-card:nth-child(2) {
-    margin: 0 1.5rem;
-  }
-  
-  .project__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  
-  
-  .project__heading-1 {
-    color: #f00946;
+    width: 100%;
+    margin: none;
     font-size: 16px;
-    line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
-
-  .project__heading-2 {
-    color: green;
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-  }
-
-  .project__cardHeader {
-     text-align: center;
-     display: flex;
-  }
-
-  
   .project__container-cardInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    align-items: center;
-    color:lavender;
   }
-
-  
-  .project__container-cardInfo h3 {
-    color:  #f7f8fa;
-    }
-
-    .project__links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .project__icons {
-        font-size: 1.5rem;
-        display: flex;
-        justify-content: space-between;
-    } 
-
-
-    .project__icon {
-        color: lavender;
-        padding-left: 1rem;
-    }
-
-    .project__details {
-        padding-top: 0.5rem;
-        color: #276afb;
-    }
-
-    .project__icon:hover, .project__name:hover, .project__details:hover {
-        color: #f00946;
-        transform: scale(1.06);
-        transition: all 0.3s ease-out;
-    }
-    
-    .project__img {
-        text-align: center;
-        position: relative;
-        width: 100%;
-        max-width: 400px; 
-        margin-bottom: 1rem;
-    }
-
-    .project__img .project__button {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        background-color: #555;
-        color: white;
-        font-size: 16px;
-        padding: 12px 24px;
-        border: none;
-        cursor: pointer;
-        border-radius: 5px;
-        text-align: center;
-    }
-    
-
-    
-    
-  .project__img:hover{
-      width: 100%;
-    transform: scale(1.06);
-    transition: all 0.3s ease-out;
-
 }
 
+@media screen and (max-width: 768px) {
+  .project_bg .container {
+    width: 10%;
+  }
+
+  .project__img {
+    padding-top: 4rem;
+  }
+
   .project__img img {
-    width: 80%;
-    display: inline-block;
-    height:auto;
-    border-radius: 50%;
-    border: solid 5px gray;
-    box-shadow: 0 1px 5px #1c2237;
-    
+    width: 75%;
   }
-  
-  
-  .project__container-cardInfo h4 {
-    font-size: 40px;
+   
+  .project__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
-  
-  .project__container-cardInfo p {
-    font-size: 14px;
-    margin-bottom: 1rem;
+
+  .rec-arrow {
+      display: none;
   }
-  
-  .project__container-features {
-    margin: 16px 0 32px;
+  button.rec-dot{
+    margin-left: 2rem;
+  }
+
+  .project__container-card {
+    width: 100%;
+    height: 20rem;
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    list-style: none;
   }
 
-  .project__container-features_desc{
-    font-size: 14px;
-    margin-bottom: none;
-    text-align: center;
-    width: 80%;
-  }
-  
-  .projects__viewAll {
-      padding: 5rem 0 0 0;
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      margin: auto;
-      color: green;
-      font-size: 16px;
-      line-height: 16px;
-      font-weight: 700;
-      letter-spacing: 1.4px;
-      text-transform: uppercase;
-      margin-bottom: 2rem;
-  }
-
-  .projects__viewAll > span {
-      color: gray;
-  }
-
-  .project__container-features_highlights {
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  .project__container-features {
-    width: 100%;
+  .project__wrapper {
+    margin: 0 30px;
     display: flex;
     flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    font-size: 1rem;
   }
-  
 
+  .project__container-card:hover {
+    transform: none;
+  }
+}
 
-  @media screen and (max-width: 1024px) {
-      .projects__viewAll { 
-        display: flex;
-        width: 100%;
-        margin: none;
-        font-size: 16px;
-        font-weight: 700;
-        letter-spacing: 1.4px;
-        text-transform: uppercase;
-        margin-bottom: 2rem;
+@media screen and (max-width: 669px) {
+    .project__img img {
+        width: 45%;
       }
-      .project__container-cardInfo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+       
+}
+
+
+@media screen and (max-width: 600px) {
+    .project__img img {
+        width: 50%;
+      }
+       
+}
+
+@media screen and (max-width: 520px) {
+    .project__img img {
+        width: 64%;
+      }
+
    
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
+       
+}
 
-    .project_bg .container {
-        width: 10%;
-    }
 
-    .project__container {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-  
-    .project__container-card {
-    
-      width: 100%;
-      height: 20rem;
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-    }
-    
-    .project__wrapper {
-        margin: 0 30px;
-        display: flex;
-        flex-direction: column;
-        flex-direction: row;
-      align-items: center;
-    }
-  
-    .project__container-card:hover {
-      transform: none;
-    }
+@media screen and (max-width: 420px) {
+    .project__img img {
+        width: 70%;
+      }
+       
+}
 
-  }
-
-  @media screen and (max-width: 385px) {
-
-  }
