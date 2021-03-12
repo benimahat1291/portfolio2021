@@ -66,14 +66,14 @@ export const projectThree = {
     topLine: 'World-Wide Statistics',
     headline: 'Covid Tracker',
     description:
-        "Using disease.sh Api to view world-wide covid19 statistics. Search by country and dynamicaly change the map to show data on cases, deaths and recoveires.",
+        "Using disease.sh Api to view world-wide covid19 statistics. Search by country and dynamicaly change the map to show data on cases, deaths and recoveries.",
     highlights: "Uses leafet.js and chart.js to visualize Covid-19 data pulled from an Api",
     technology: "React, Chart.js, Leaflet.js, Neumeral.js, HTML, JSX, CSS, JSON, Materialize",
     imgStart: 'start',
     laptopImg: "images/laptop.png",
     projectImg: 'images/covidtracker.png',
     githubUrl: "https://github.com/benimahat1291/covidTracker",
-    deployedUrl: "https://covid-tracker123212.herokuapp.com/",
+    deployedUrl: "https://covid-tracker-67987.web.app/",
     title: ""
 
 };
