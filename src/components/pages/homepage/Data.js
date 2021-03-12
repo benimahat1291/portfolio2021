@@ -30,8 +30,8 @@ export const projectOne = {
     topLine: 'Event Planner',
     headline: 'Eventor',
     description:
-        'Create detailed Conference style events spaning mulitple days and nemuerous sessions. Explore and interact with Conferences hosted by other users',
-    highlights: "Full CRUD functionality, Scalable back-end with MongoDB,  Auth.O user Authentication",
+        'Create detailed Conference style events spaning mulitple days and nemuerous sessions. Explore and interact with events hosted by other users',
+    highlights: "Mobile Responsive, Scalable back-end with MongoDB,  Auth.O user Authentication",
     technology: "React, Auth.0, Axios, MongoDB, HTML, JSX, CSS, JSON, Express, Server-side APIs",
     imgStart: 'start',
     laptopImg: 'images/laptop.png',
