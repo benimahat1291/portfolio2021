@@ -137,7 +137,7 @@ export const projectsObj = {
         {
             name: "WeatherApp",
             subtitle: "Search City Forcast",
-            img: "images/weatherApp.png",
+            img: "images/weatherapp.png",
             githubUrl: "https://github.com/benimahat1291/weatherApp",
             deployedUrl: "https://benimahat1291.github.io/weatherApp/",
         },
