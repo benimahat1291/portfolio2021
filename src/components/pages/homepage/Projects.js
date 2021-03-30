@@ -11,10 +11,10 @@ function project(projectsObj) {
     const projectArr = projectsObj.projectsArr
     console.log(projectArr)
     const breakPoints = [
-        { width: 1, itemsToShow: 1 },
+        { width: 1, itemsToShow: 1, itemsToScroll: 1  },
         { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-        { width: 768, itemsToShow: 3 },
-        { width: 1200, itemsToShow: 4 }
+        { width: 768, itemsToShow: 3,  itemsToScroll: 3  },
+        { width: 1200, itemsToShow: 4,  itemsToScroll: 4  }
       ];
     return (
         <>
@@ -34,7 +34,7 @@ function project(projectsObj) {
                         <div  className='project__container'>
                             <Carousel className="project__carousel" breakPoints={breakPoints}>
                             {projectArr.map(e => (
-                                <div data-aos="flip-left" data-aos-offset="50" className='project__container-card'>
+                                <div data-aos="flip-left" data-aos-offset="200" className='project__container-card'>
                                     <div className='project__container-cardInfo'>
                                         <div className="project__img">
                                             <img src={process.env.PUBLIC_URL + "/" + e.img} alt="project_img" />

@@ -18,7 +18,7 @@ function Header({
 
 
                 <div className='header__hero-row' style={{display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' :'row'}}>
-                    <div data-aos="fade-zoom-in"  data-aos-easing="ease-in-sine" data-aos-duration="1000" className='header__hero-text-wrapper'>
+                    <div data-aos="fade-zoom-in" data-aos-delay={500} data-aos-easing="ease-in-sine" data-aos-duration="1000" className='header__hero-text-wrapper'>
                         <div className='header__top-line'>{topLine}</div>
                         <h1 className={lightText ? 'header__heading' : 'header__heading dark'}>
                             {headline}

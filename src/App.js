@@ -11,18 +11,18 @@ import Footer from "./components/Footer";
 function App() {
 
     useEffect(()=> {
-        Aos.init({duration: 2000});
+        Aos.init({duration: 1000});
     }, [])
 
 
     const fade = useSpring({
+        config: { duration: 2000 },
         from: {
             opacity: 0.3,
 
         },
         to: {
             opacity: 1,
-            color: "#1c2237",
         }
     })
 

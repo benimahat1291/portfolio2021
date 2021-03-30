@@ -144,5 +144,11 @@
         padding-left: none;
     
       }
+  }
 
+  @media screen and (max-width: 500px) {
+    .footer-logo {
+        width: 80%;
+        margin: auto
+    }
   }
