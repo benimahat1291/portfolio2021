@@ -13,7 +13,7 @@ export const aboutMeObj = {
     lightTextDesc: true,
     topLine: "About Me",
     alt: 'mypic',
-    description: "Full Stack Web Developer passionate about creating an ideal user experience with React. Aspiring to master all React libraries and technologies, I stay innovative by challenging myself to implement new technologies in every project. Recently received a Certificate in Web Development from Denver University. Excellent interpersonal communicator and a proactive collaborator valued on team-based projects and resourceful individually. Deadline driven, I establish measurable goals and resiliently work to achieve them. Currently I am seeking an environment where I can professionally utilize and grow my skills as a developer.   ",
+    description: "Full Stack Web Developer passionate about creating an ideal user web experience. Recently received a Certificate in Web Development from Denver University. A deadline driven excellent interpersonal communicator and proactive collaborator valued on team-based projects for critical thinking and technical problem-solving skills. Recognized ability to establish measurable goals and relentlessly work to achieve them. Currently I am seeking an environment where I can professionally utilize and grow my skills as a developer.   ",
 }
 
 export const skillsObj = {

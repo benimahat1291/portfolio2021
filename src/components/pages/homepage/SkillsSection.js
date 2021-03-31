@@ -4,7 +4,7 @@ import Html from "../../../images/html_icon.png"
 import Css from "../../../images/css_icon.png"// css: "",
 import Js from "../../../images/js_icon.png"// js: "images/",
 import Bootstrap from "../../../images/bootstrap_icon.png"// bootstrap: "images/bootstrap_icon.png",
-import Materalize from "../../../images/materalize_icon.png"// materalize: "",
+import Materalize from "../../../images/nextjs.svg"// materalize: "",
 import Reactapp from "../../../images/react_icon.png"// react: "",
 import Jquerry from "../../../images/jq_icon.png"// jquerry: "",
 import Nodejs from "../../../images/node_icon.png"// node: "",
@@ -31,9 +31,9 @@ function SkillsSection({
                             <div data-aos="flip-left" data-aos-delay="100" data-aos-offset="200"   className="skill_icon"><img src={Css} alt="css" /><p>CSS</p></div>
                             <div data-aos="flip-left" data-aos-delay="200" data-aos-offset="200"   className="skill_icon"><img src={Js} alt="js" /><p>JavaScript</p></div>
                             <div data-aos="flip-left" data-aos-delay="300" data-aos-offset="200"   className="skill_icon"><img src={Reactapp} alt="React" /><p>React</p></div>
+                            <div data-aos="flip-left" data-aos-delay="500" data-aos-offset="200"   className="skill_icon"><img style={{background: 'white', padding: "5px", borderRadius: "50%"}} src={Materalize} alt="materalize" /><p>Next</p></div>
                             <div data-aos="flip-left" data-aos-delay="400" data-aos-offset="200"   className="skill_icon"><img src={Jquerry} alt="jq" /><p>JQuerry</p></div>
-                            <div data-aos="flip-left" data-aos-delay="500" data-aos-offset="200"   className="skill_icon"><img src={Bootstrap} alt="bootstrap" /><p>BootStrap</p></div>
-                            <div data-aos="flip-left" data-aos-delay="600" data-aos-offset="200"   className="skill_icon"><img src={Materalize} alt="materalize" /><p>Materalize</p></div>
+                            <div data-aos="flip-left" data-aos-delay="600" data-aos-offset="200"   className="skill_icon"><img src={Bootstrap} alt="bootstrap" /><p>BootStrap</p></div>
                         </div>
                     </div>
                     <div className='skills__backEnd'>
