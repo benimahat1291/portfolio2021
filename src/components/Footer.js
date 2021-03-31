@@ -83,7 +83,7 @@ function Footer() {
             <div className='footer-logo'>
                 <a to='/' className='social-logo'>
                     <div className="footer-item">
-                        <p>Full Stacks Developer</p>
+                        <p>Full Stack Developer</p>
                     </div>
                     <div className="footer-item">
                         <span>BENI</span>

@@ -3,7 +3,7 @@
 export const headerOjb = {
     lightBg: false,
     lightText: true,
-    topLine: "Full Stacks Web Developer",
+    topLine: "Full Stack Web Developer",
     headline: "BENI MAHAT",
     imgStart: 'start',
 }
@@ -30,9 +30,9 @@ export const projectOne = {
     topLine: 'Latest News Articles',
     headline: 'NextNews',
     description:
-        'Browse the latest News articles from the NewsApi.org Api. Search by Categories such as Entertainment, Health and Technology ',
-    highlights: "Mobile Responsive, Server Side Rendering, Search Engin Optimization",
-    technology: "React.js, Next.js, Animations",
+        'Browse the latest News articles from the NewsApi.org API. Search by Categories such as Entertainment, Health and Technology.',
+    highlights: "Mobile Responsive, Server-side Rendering, Search-engine-optimization, Animated Components",
+    technology: "",
     imgStart: 'start',
     laptopImg: 'images/laptop.png',
     projectImg: "images/nextnews3.png",
@@ -48,8 +48,8 @@ export const projectTwo = {
     topLine: 'Event Planner',
     headline: 'Eventor',
     description:
-        'Create detailed Conference style events spaning mulitple days and nemuerous sessions. Explore and interact with events hosted by other users',
-    highlights: "Mobile Responsive, Scalable back-end with MongoDB,  Auth.O user Authentication",
+        'Create detailed conference styled events spanning multiple days and numerous sessions. Explore and interact with events hosted by other users.',
+    highlights: "Mobile Responsive, Scalable Back-end with MongoDB,  Auth.O user Authentication",
     technology: "React, Node/Express.js, MongoDB, Auth.0, JSX, Axios, JSON, Server-side APIs",
     imgStart: '',
     laptopImg: 'images/laptop.png',
@@ -65,9 +65,9 @@ export const projectThree = {
     topLine: 'E-comerce web-store',
     headline: 'Amazon Clone',
     description:
-        'Designed to Look and function like amazon. Sign up and add items to your basket, when you are ready to purchase checkout your items and pay using your credit card',
-    highlights: "Google Authentication and Cloud Function Database using Firebase, Stripe payment processing",
-    technology: "Stripe.js, Firebase Auth/CloudFucntion, React, JSX, Flexbox",
+        'Designed to Look and function like amazon. Sign up and add items to your basket, when you are ready to purchase checkout your items and pay using your credit card.',
+    highlights: "Google Authentication and Cloud Function Database using Firebase, Stripe Payment Processing",
+    technology: "Stripe.js, Firebase-Auth/Cloud-Fucntion, React, JSX, Flexbox",
     imgStart: 'start',
     laptopImg: 'images/laptop.png',
     projectImg: "images/amazon.png",
