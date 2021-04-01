@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio2021/static/css/main.f51cf9f9.chunk.css",
-    "main.js": "/portfolio2021/static/js/main.21c77a34.chunk.js",
-    "main.js.map": "/portfolio2021/static/js/main.21c77a34.chunk.js.map",
+    "main.js": "/portfolio2021/static/js/main.d6a95f7a.chunk.js",
+    "main.js.map": "/portfolio2021/static/js/main.d6a95f7a.chunk.js.map",
     "runtime-main.js": "/portfolio2021/static/js/runtime-main.6a475636.js",
     "runtime-main.js.map": "/portfolio2021/static/js/runtime-main.6a475636.js.map",
     "static/css/2.ec02d681.chunk.css": "/portfolio2021/static/css/2.ec02d681.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.ec02d681.chunk.css.map": "/portfolio2021/static/css/2.ec02d681.chunk.css.map",
     "static/css/main.f51cf9f9.chunk.css.map": "/portfolio2021/static/css/main.f51cf9f9.chunk.css.map",
     "static/js/2.99f4af89.chunk.js.LICENSE.txt": "/portfolio2021/static/js/2.99f4af89.chunk.js.LICENSE.txt",
-    "static/media/BeniMahatResume.1bd494ae.pdf": "/portfolio2021/static/media/BeniMahatResume.1bd494ae.pdf",
+    "static/media/BeniMahatResume.cb0d4918.pdf": "/portfolio2021/static/media/BeniMahatResume.cb0d4918.pdf",
     "static/media/bootstrap_icon.d5210cde.png": "/portfolio2021/static/media/bootstrap_icon.d5210cde.png",
     "static/media/css_icon.c5583d09.png": "/portfolio2021/static/media/css_icon.c5583d09.png",
     "static/media/express_icon.d61ef3d5.png": "/portfolio2021/static/media/express_icon.d61ef3d5.png",
@@ -34,6 +34,6 @@
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.99f4af89.chunk.js",
     "static/css/main.f51cf9f9.chunk.css",
-    "static/js/main.21c77a34.chunk.js"
+    "static/js/main.d6a95f7a.chunk.js"
   ]
 }
